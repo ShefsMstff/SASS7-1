@@ -1,0 +1,43 @@
+// imports
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './partial/home/our-mission';
+@import './partial/home/meetings';
+
+// mixins include
+.card-btn{
+    @include card-btn();
+}
+.card-action{
+    @include card-btn($primary-color);
+}
+
+// general parts
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight:700;
+}
+.container{
+    margin: 0 auto;
+    width: 1500px;
+    background-color: rgb(246, 249, 251);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: calc(100%/12*4);
+}
+.col-2{
+    width: calc(100%/12*6);
+    padding: 30px;
+   
+}
+
+
+
+

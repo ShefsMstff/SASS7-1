@@ -1,0 +1,9 @@
+@mixin card-btn($color:#000){
+        text-decoration: none;
+        font-size: $font-heading ;
+        margin-top: 20px;
+        color: $color;
+        
+    }
+    
+

@@ -1,0 +1,135 @@
+.padding {
+  padding: 30px;
+}
+
+.heading h3 {
+  font-size: 75px;
+  color: #307fe2;
+  margin-left: 24px;
+}
+
+#our-missions {
+  background-color: #fff;
+  padding: 10px 0;
+}
+#our-missions .cards {
+  margin-top: 30px;
+  border: 5px solid #307fe2;
+  text-align: center;
+  background-color: black;
+}
+#our-missions .cards .cards-header {
+  background-color: #307fe2;
+  border: 4px solid #307fe2;
+  padding: 20px;
+}
+#our-missions .cards .cards-header h5 {
+  font-size: 20px;
+  color: #fff;
+}
+#our-missions .cards .cards-info {
+  padding: 20px;
+  border: 4px solid #307fe2;
+  padding-bottom: 100px;
+}
+#our-missions .cards .cards-info .bi {
+  font-size: 130px;
+  color: azure;
+}
+#our-missions .cards .cards-info p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  margin-top: 20px;
+}
+#our-missions .cards .cards-action {
+  background-color: black;
+  border: 4px solid #307fe2;
+  padding: 20px;
+}
+#our-missions .cards .cards-action :hover {
+  background-color: #fff;
+  color: #307fe2;
+}
+#our-missions .cards .cards-action a {
+  color: #fff;
+  background-color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.headers {
+  text-align: center;
+  padding: 24px 0;
+}
+.headers a {
+  font-size: 20px;
+  color: #307fe2;
+  text-decoration: none;
+}
+.headers h3 {
+  color: #307fe2;
+  font-size: 75px;
+}
+
+.meetings-card-first {
+  display: flex;
+  background-color: rgb(230, 244, 249);
+  width: 600px;
+  margin: 0 auto;
+}
+.meetings-card-first .first-card-info {
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #307fe2;
+  padding: 10px 30px;
+  background-color: rgb(218, 241, 251);
+}
+.meetings-card-first .first-card-img img {
+  width: 300px;
+  height: 300px;
+}
+
+.card-btn {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #000;
+}
+
+.card-action {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #307fe2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1500px;
+  background-color: rgb(246, 249, 251);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-2 {
+  width: 50%;
+  padding: 30px;
+}/*# sourceMappingURL=index.css.map */
